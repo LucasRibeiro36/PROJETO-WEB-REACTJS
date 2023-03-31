@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: rgb(197, 196, 255);
+}

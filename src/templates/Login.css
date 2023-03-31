@@ -1,0 +1,97 @@
+.auth-tabs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5; /* cinza claro */
+    padding: 20px;
+  }
+  
+  .auth-tab {
+    background-color: #9370DB; /* roxo claro */
+    color: #FFFFFF; /* texto branco */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .auth-tab.active {
+    background-color: #663399; /* roxo mais escuro */
+  }
+  
+  .deslogado p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .login, .register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .login input, .register input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .login input[type="email"], .register input[type="email"] {
+    width: 300px;
+  }
+  
+  .login input[type="password"], .register input[type="password"] {
+    width: 300px;
+  }
+  
+  .submit {
+    background-color: #9370DB; /* roxo claro */
+    color: #FFFFFF; /* texto branco */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #663399; /* roxo mais escuro */
+  }
+  
+  .logado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .logado p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .logado button, .deslogado button {
+    background-color: #9370DB; /* roxo claro */
+    color: #FFFFFF; /* texto branco */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logado button:hover, .deslogado button:hover {
+    background-color: #663399; /* roxo mais escuro */
+  }
+  
